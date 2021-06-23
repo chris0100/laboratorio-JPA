@@ -1,0 +1,2 @@
+com/laboratorio/LaboratorioApplicationTests.java
+ com.laboratorio.LaboratorioApplicationTests
