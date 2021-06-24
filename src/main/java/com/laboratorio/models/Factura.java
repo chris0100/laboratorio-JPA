@@ -1,4 +1,4 @@
-package com.laboratorio.models.DTO;
+package com.laboratorio.models;
 
 
 import lombok.Data;
@@ -28,10 +28,12 @@ public class Factura implements Serializable {
     private Date createAt;
 
     @ManyToOne(fetch = FetchType.LAZY)
+    //
     private Cliente cliente;
 
     @OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     @JoinColumn(name = "factura_id")
+    //
     private List<ItemFactura> items;
 
 

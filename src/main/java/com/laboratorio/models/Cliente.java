@@ -1,4 +1,4 @@
-package com.laboratorio.models.DTO;
+package com.laboratorio.models;
 
 import lombok.Data;
 import org.springframework.format.annotation.DateTimeFormat;
@@ -40,6 +40,7 @@ public class Cliente implements Serializable {
     private Date createAt;
 
     @OneToMany(mappedBy = "cliente", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    //
     private List<Factura> facturas;
 
 

@@ -1,4 +1,4 @@
-package com.laboratorio.models.DTO;
+package com.laboratorio.models;
 
 import lombok.Data;
 
@@ -36,6 +36,4 @@ public class Producto implements Serializable {
 
 
     public static final long serialVersionUID = 1L;
-
-
 }

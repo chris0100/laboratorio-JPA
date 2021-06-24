@@ -1,4 +1,4 @@
-package com.laboratorio.models.DTO;
+package com.laboratorio.models;
 
 import lombok.Data;
 
@@ -20,6 +20,7 @@ public class ItemFactura implements Serializable {
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "producto_id")
+    //
     private Producto producto;
 
 

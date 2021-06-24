@@ -1,10 +1,19 @@
-com/laboratorio/models/DTO/Cliente.java
- com.laboratorio.models.DTO.Cliente
-com/laboratorio/models/DTO/Factura.java
- com.laboratorio.models.DTO.Factura
-com/laboratorio/models/DTO/Producto.java
- com.laboratorio.models.DTO.Producto
-com/laboratorio/models/DTO/ItemFactura.java
- com.laboratorio.models.DTO.ItemFactura
+com/laboratorio/models/DTO/ClienteDTO.java
+ com.laboratorio.models.DTO.ClienteDTO
+ com.laboratorio.models.DTO.ClienteDTO$ClienteDTOBuilder
+com/laboratorio/models/DTO/ProductoDTO.java
+ com.laboratorio.models.DTO.ProductoDTO
+com/laboratorio/models/DTO/FacturaDTO.java
+ com.laboratorio.models.DTO.FacturaDTO
+com/laboratorio/models/Factura.java
+ com.laboratorio.models.Factura
+com/laboratorio/models/DTO/ItemFacturaDTO.java
+ com.laboratorio.models.DTO.ItemFacturaDTO
 com/laboratorio/LaboratorioApplication.java
  com.laboratorio.LaboratorioApplication
+com/laboratorio/models/Cliente.java
+ com.laboratorio.models.Cliente
+com/laboratorio/models/Producto.java
+ com.laboratorio.models.Producto
+com/laboratorio/models/ItemFactura.java
+ com.laboratorio.models.ItemFactura
