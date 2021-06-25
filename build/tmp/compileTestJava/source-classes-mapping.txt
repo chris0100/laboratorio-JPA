@@ -1,2 +1,9 @@
 com/laboratorio/LaboratorioApplicationTests.java
  com.laboratorio.LaboratorioApplicationTests
+com/laboratorio/models/ClienteTest.java
+ com.laboratorio.models.ClienteTest
+com/laboratorio/services/ClienteServiceImplTest.java
+ com.laboratorio.services.ClienteServiceImplTest
+com/laboratorio/controllers/ClienteControllerTest.java
+ com.laboratorio.controllers.ClienteControllerTest
+ com.laboratorio.controllers.ClienteControllerTest$1

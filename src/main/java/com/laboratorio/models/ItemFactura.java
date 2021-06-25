@@ -1,5 +1,6 @@
 package com.laboratorio.models;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;
 
 import javax.persistence.*;
@@ -20,7 +21,7 @@ public class ItemFactura implements Serializable {
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "producto_id")
-    //
+    @JsonIgnoreProperties({"hibernateLazyInitializer","handler"})
     private Producto producto;
 
 

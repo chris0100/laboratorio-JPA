@@ -21,7 +21,6 @@ public class Producto implements Serializable {
 
     private Double precio;
 
-    //alt+enter
     @Temporal(TemporalType.DATE)
     @Column(name = "create_at")
     private Date createAt;

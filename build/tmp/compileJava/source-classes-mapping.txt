@@ -1,3 +1,19 @@
+com/laboratorio/services/ClienteServiceImpl.java
+ com.laboratorio.services.ClienteServiceImpl
+com/laboratorio/repositories/ProductoRepository.java
+ com.laboratorio.repositories.ProductoRepository
+com/laboratorio/repositories/ClienteRepository.java
+ com.laboratorio.repositories.ClienteRepository
+com/laboratorio/models/Factura.java
+ com.laboratorio.models.Factura
+com/laboratorio/services/ClienteService.java
+ com.laboratorio.services.ClienteService
+com/laboratorio/config/ConfigurationBeans.java
+ com.laboratorio.config.ConfigurationBeans
+com/laboratorio/models/ItemFactura.java
+ com.laboratorio.models.ItemFactura
+com/laboratorio/repositories/FacturaRepository.java
+ com.laboratorio.repositories.FacturaRepository
 com/laboratorio/models/DTO/ClienteDTO.java
  com.laboratorio.models.DTO.ClienteDTO
  com.laboratorio.models.DTO.ClienteDTO$ClienteDTOBuilder
@@ -5,15 +21,16 @@ com/laboratorio/models/DTO/ProductoDTO.java
  com.laboratorio.models.DTO.ProductoDTO
 com/laboratorio/models/DTO/FacturaDTO.java
  com.laboratorio.models.DTO.FacturaDTO
-com/laboratorio/models/Factura.java
- com.laboratorio.models.Factura
 com/laboratorio/models/DTO/ItemFacturaDTO.java
  com.laboratorio.models.DTO.ItemFacturaDTO
 com/laboratorio/LaboratorioApplication.java
  com.laboratorio.LaboratorioApplication
 com/laboratorio/models/Cliente.java
  com.laboratorio.models.Cliente
+ com.laboratorio.models.Cliente$ClienteBuilder
 com/laboratorio/models/Producto.java
  com.laboratorio.models.Producto
-com/laboratorio/models/ItemFactura.java
- com.laboratorio.models.ItemFactura
+com/laboratorio/controllers/ClienteController.java
+ com.laboratorio.controllers.ClienteController
+com/laboratorio/Datos.java
+ com.laboratorio.Datos

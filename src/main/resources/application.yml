@@ -15,7 +15,7 @@ spring:
 
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/laboratorio_jpa
+    url: jdbc:postgresql://localhost:5432/lab_jpa
     username: postgres
     password: fence0gras
 
